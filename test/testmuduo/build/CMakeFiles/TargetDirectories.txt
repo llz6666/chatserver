@@ -1,0 +1,3 @@
+/home/llz/CHAT/testmuduo/build/CMakeFiles/server.dir
+/home/llz/CHAT/testmuduo/build/CMakeFiles/edit_cache.dir
+/home/llz/CHAT/testmuduo/build/CMakeFiles/rebuild_cache.dir
