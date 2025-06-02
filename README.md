@@ -8,7 +8,7 @@ cmake ..
 make
 
 chatserver 目录下
-bin： ChatClient ChatServer 可执行文件
+bin：ChatClient ChatServer 可执行文件
 build：编译的中间文件
 include：头文件
 src：源文件，包含客户端和服务端
