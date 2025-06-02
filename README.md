@@ -3,13 +3,13 @@
 
 ## 项目结构
 chatserver/
-├── bin/ # 编译后生成的可执行文件 ChatClient / ChatServer
-├── build/ # CMake 构建中间目录
-├── include/ # 头文件
-├── src/ # 源文件（客户端、服务端核心逻辑）
-├── thirdparty/ # 第三方依赖（如 json.hpp）
-├── autobuild.sh # 自动构建脚本
-└── README.md # 项目说明文档
+├── bin/ # 编译后生成的可执行文件 ChatClient / ChatServer  
+├── build/ # CMake 构建中间目录  
+├── include/ # 头文件  
+├── src/ # 源文件（客户端、服务端核心逻辑）  
+├── thirdparty/ # 第三方依赖（如 json.hpp）  
+├── autobuild.sh # 自动构建脚本  
+└── README.md # 项目说明文档  
 
 ## 编译方式：  
 ```bash  
@@ -18,7 +18,7 @@ rm -rf *
 cmake ..  
 make  
 或使用自动脚本：  
-./autobuild.sh
+./autobuild.sh  
 
 ## 功能特性
  客户端与服务端基于 TCP 长连接通信
