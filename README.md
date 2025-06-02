@@ -3,37 +3,40 @@
 
 ## 项目结构
 chatserver/  
-├── bin/ # 编译后生成的可执行文件 ChatClient / ChatServer  
-├── build/ # CMake 构建中间目录  
-├── include/ # 头文件  
-├── src/ # 源文件（客户端、服务端核心逻辑）  
-├── thirdparty/ # 第三方依赖（如 json.hpp）  
-├── autobuild.sh # 自动构建脚本  
-└── README.md # 项目说明文档  
+├── bin/ 编译后生成的可执行文件 ChatClient / ChatServer  
+├── build/ CMake 构建中间目录  
+├── include/ 头文件  
+├── src/ 源文件（客户端、服务端核心逻辑）  
+├── thirdparty/ 第三方依赖（如 json.hpp）  
+├── autobuild.sh 自动构建脚本  
+└── README.md 项目说明文档  
 
 ## 编译方式：  
-```bash  
+``` 
 cd build  
 rm -rf *  
 cmake ..  
-make```  
+make
+```
 或使用自动脚本：  
+```
 ./autobuild.sh  
-
+```
 ## 功能特性
- 客户端与服务端基于 TCP 长连接通信
+客户端与服务端基于 TCP 长连接通信  
 
- 支持私聊和群聊
+支持私聊和群聊  
 
- 用户注册、登录、好友添加
+用户注册、登录、好友添加  
 
- 离线消息存储
+离线消息存储  
 
- Redis 发布/订阅实现跨服务器转发
+Redis 发布/订阅实现跨服务器转发  
 
- 聊天记录持久化到 MySQL
+聊天记录持久化到 MySQL  
 
- 可部署于 Nginx TCP 负载均衡后端，实现服务扩展
+可部署于 Nginx TCP 负载均衡后端，实现服务扩展  
+
 
 ## 第三方依赖
 muduo - 高性能 C++ 网络库
